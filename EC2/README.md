@@ -1,12 +1,40 @@
-# Amazon EC2 (Elastic Compute Cloud)
+# EC2 (Elastic Compute Cloud)
 
-Amazon EC2 lets you rent virtual servers in the cloud, which you can use to run your applications. This section will teach you how to use EC2, from the basics to more advanced topics.
+EC2 (Elastic Compute Cloud) provides scalable virtual servers in the cloud, allowing you to deploy, manage, and scale applications with flexibility and ease. This section covers essential concepts, practical examples, and best practices for working with EC2.
 
-## What You'll Learn
-- **Introduction to EC2**: Learn what EC2 is and its main features.
-- **Launching an Instance**: Step-by-step guide to creating your first virtual server.
-- **Security Groups**: How to secure your EC2 instance.
-- **Elastic IPs**: Keeping a fixed IP address for your server.
-- **AMIs**: How to create and use server images.
+## Basic Concepts
 
-Check out the `examples/` folder for practical guides on using EC2.
+- **Instances**: Virtual machines with customizable configurations of CPU, memory, and storage.
+- **AMI (Amazon Machine Image)**: Pre-configured templates to launch instances with specific configurations and software.
+- **Security Groups**: Virtual firewalls that control inbound and outbound traffic to your instances.
+- **Elastic IPs**: Static IP addresses designed for dynamic cloud computing.
+- **Auto Scaling**: Automatically adjusts the number of instances based on demand.
+
+## Learning Path
+
+1. **Introduction to EC2**: Understand the basics of EC2, including instance types, pricing models, and key concepts.
+2. **Launching an Instance**: Follow a step-by-step guide to launching and connecting to an EC2 instance.
+3. **Security Groups**: Learn about security rules, best practices, and configuring security groups.
+4. **Elastic IPs**: Manage static IP addresses and understand their use cases.
+5. **AMI**: Create and use Amazon Machine Images to standardize instance configurations.
+
+## Examples
+
+- **Web Server Setup**: Launch an EC2 instance and set up a web server (e.g., Apache or Nginx).
+- **Auto Scaling**: Configure Auto Scaling to handle varying traffic loads and ensure high availability.
+
+## Certification Tips
+
+- **AWS Certified Solutions Architect – Associate**: Focus on EC2 instance types, Auto Scaling, and cost management.
+- **AWS Certified DevOps Engineer – Professional**: Emphasize automation, security group configuration, and scaling best practices.
+
+## Getting Started
+
+Explore the following files to dive deeper into EC2:
+
+- [Introduction to EC2](01-Introduction-to-EC2.md)
+- [Launch an EC2 Instance](02-Launch-an-EC2-Instance.md)
+- [Security Groups](03-Security-Groups.md)
+- [Elastic IPs](04-Elastic-IPs.md)
+- [AMI](05-AMI.md)
+- [Examples](examples/)
