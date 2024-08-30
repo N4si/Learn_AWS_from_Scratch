@@ -1,32 +1,44 @@
-# Introduction to EC2
+# Amazon EC2 Quick Notes for Beginners
 
-Amazon EC2 (Elastic Compute Cloud) provides scalable virtual servers in the cloud. This section introduces you to EC2, its instance types, pricing models, and key concepts.
+### 🚀 What is EC2?
+- **Amazon EC2 (Elastic Compute Cloud)**: Virtual servers in the cloud to run your applications.
 
-## Key Concepts
+### 🌟 Key Features
+- **Scalable**: Adjust server capacity as needed.
+- **Flexible**: Choose instance types based on your needs.
+- **Pay-as-you-go**: Pay only for what you use.
 
-- **Instance Types**: Different types of instances tailored for various use cases:
-  - **General Purpose**: `t3.micro`, `t3.medium` – Balanced compute, memory, and networking resources.
-  - **Compute Optimized**: `c5.large`, `c5.xlarge` – High performance for compute-intensive tasks.
-  - **Memory Optimized**: `r5.large`, `r5.xlarge` – Designed for memory-intensive applications.
+### 🛠️ Basic Concepts
+- **Instance**: A virtual server.
+- **AMI**: Template with OS and software.
+- **Instance Types**:
+  - `t3.micro` - Small, general-purpose.
+  - `c5.large` - For compute-heavy tasks.
+  - `r5.large` - For memory-intensive tasks.
 
-- **Pricing Models**: 
-  - **On-Demand Instances**: Pay for compute capacity by the hour or second. No long-term contracts.
-  - **Reserved Instances**: Commit to a one- or three-year term for a significant discount.
-  - **Spot Instances**: Purchase unused capacity at reduced rates by bidding.
-  Watch this video on Pricing Models: 
+### 💰 Pricing Models
+- **On-Demand**: Pay by the hour/second. No commitment.
+- **Reserved**: Save money with a 1-3 year commitment.
+- **Spot**: Bid on unused capacity at lower prices.
 
-- **Regions and Availability Zones**: Deploy instances in multiple geographic locations to improve fault tolerance and redundancy.
+Learn EC2 Pricing Models: https://youtu.be/_d42iIc-P5I?si=iryRTLHu10dwFOUM
 
-## Example Use Case
+### 📝 Getting Started
+1. **Choose an AMI**: Select OS/software.
+2. **Pick an Instance Type**: Size your server.
+3. **Set Security Groups**: Control access.
+4. **Launch**: Start and connect to your instance.
 
-- **Startup**: A startup may use on-demand instances to scale up during peak times and save costs during off-peak periods.
+### 🔑 Important Concepts
+- **Elastic IP**: Static IP address.
+- **Security Groups**: Firewall rules for your instance.
+- **EBS**: Persistent storage.
 
-## Certification Tips
+### 📌 Tips
+- **Start Small**: Use a free tier `t3.micro` to learn.
+- **Backup**: Take snapshots of your data.
+- **Monitor**: Use CloudWatch for performance and cost tracking.
 
-- **Understand instance types and pricing**: Essential for AWS Certified Solutions Architect and AWS Certified DevOps Engineer exams.
-
-## Resources
-
-- [EC2 Pricing](https://aws.amazon.com/ec2/pricing/)
-- [EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/)
-- [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/)
+### 📚 Resources
+- **[AWS Free Tier](https://aws.amazon.com/free/)**: 750 hours/month on `t3.micro`.
+- **[AWS Documentation](https://docs.aws.amazon.com/ec2/)**: Learn more.
