@@ -16,7 +16,7 @@ This repository is structured into folders, each focusing on a key AWS service. 
   
 - **📦 S3 (Simple Storage Service)**: Scalable object storage for data backup, hosting static websites, and more.
 
-- **🔐 IAM (Identity and Access Management)**: Manage user access and encryption keys securely.
+- **🔐 [IAM (Identity and Access Management)](./AWS%20IAM/)**: Manage user access and encryption keys securely.
 
 - **🗄️ RDS (Relational Database Service)**: Managed databases like MySQL and PostgreSQL with automatic backups and scaling.
 
