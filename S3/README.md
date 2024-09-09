@@ -1,6 +1,6 @@
 # 🎓 AWS Course: S3 Module
 
-![S3 Overview](S3/s3.png)
+![S3 Overview](s3.png)
 
 This folder contains comprehensive notes on Amazon S3. Click the links below to navigate to the corresponding sections.
 
