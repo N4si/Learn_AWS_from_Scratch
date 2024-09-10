@@ -21,8 +21,8 @@ EC2 (Elastic Compute Cloud) provides scalable virtual servers in the cloud, allo
 
 ## Examples
 
-- **[Web Server Setup](examples/)**: Launch an EC2 instance and set up a web server (e.g., Apache or Nginx).
-- **[Auto Scaling](examples/)**: Configure Auto Scaling to handle varying traffic loads and ensure high availability.
+- **[Web Server Setup]**: Launch an EC2 instance and set up a web server (e.g., Apache or Nginx).
+- **[Auto Scaling]**: Configure Auto Scaling to handle varying traffic loads and ensure high availability.
 
 ## Certification Tips
 
